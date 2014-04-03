@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Typescript.Compiler</id>
+        <version>1.0</version>
+        <title>Typescript Compiler</title>
+        <authors>..</authors>
+        <owners>Microsoft</owners>
+        <licenseUrl>http://typescript.codeplex.com/license</licenseUrl>
+        <projectUrl>http://typescript.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>typescript compiler</description>
+        <summary>all the files provided by microsoft for compiling typescript files</summary>
+        <language>en-US</language>
+        <tags>typescript compiler</tags>
+    </metadata>
+	<files>
+		<file src="tools\**\*.*" target="tools" />
+	</files>
+</package>
